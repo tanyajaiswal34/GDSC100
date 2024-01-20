@@ -9,7 +9,7 @@ with col1:
 with col2:
   b = st.text_input('Enter a text')
 sub = st.button(label='Submit')
-is sub:
+if sub:
 st.write(a)
 st.write(b)
 print(a)
